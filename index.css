@@ -16,7 +16,7 @@ h3 {
 }
 
 #main-navbar-image {
-    background-image: url('/IMAGES/images (7).jpeg');
+    background-image: url('IMAGES/images (7).jpeg');
     height: 550px;
     display: flex;
     background-repeat: no-repeat;
