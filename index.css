@@ -1,0 +1,279 @@
+body{
+    background-color:black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.125rem;
+
+}
+.clr{
+    clear: both;
+}
+header img{
+    width: 100px;
+}
+h3 {
+    margin-top: 20px;
+}
+
+#main-navbar-image {
+    background-image: url('/IMAGES/images (7).jpeg');
+    height: 550px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 99998px 99998px #0009;
+}
+
+.Header-1{
+text-align: center;
+text-decoration-style: solid;
+text-shadow: 0 0 8px white;
+}
+
+.Header-1 h1 {
+    font-size: 3.5rem;
+}
+
+@media (min-width: 576px) {
+    .Header-1 h1 {
+        font-size: 6rem;
+    }
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    border-spacing: 10px;
+    text-align: center;
+}
+.List-of-Food{
+    width: 30%;
+
+}
+.container p{
+    margin: auto 1rem;
+    margin-bottom: 100px;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+    font-size: 1.325rem;
+
+}
+.container img{
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+
+}
+.container h3{
+    margin-top: 100px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+figcaption{
+    text-transform: uppercase;
+    font-size: 16px bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 27px;
+    margin-bottom: 46px;
+}
+
+#main-navbar img{
+    float: left;
+    width: 100px
+}
+#main-navbar a{
+    float: right;
+    background-color: gray;
+    text-align: center;    
+    border: 3px solid;
+    width: 120px;
+    border-spacing: 10px;
+    color: white;
+    padding-left: 10px;
+    text-decoration-line: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px 5px;
+    border-radius: 0.5em;
+    margin: 10px 10px;
+    
+}
+#main-navbar a:hover{
+    color: red;
+}
+#main-navbar a:active{
+    color:green
+}
+#main-navbar{
+padding-right: 50px;
+
+}
+footer{
+    text-align: center;
+}
+h3{
+text-align: center;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+span{
+    cursor: pointer;
+    background-color:goldenrod;
+    color: white;
+}
+span:hover{
+    color:black;
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color:gray;
+    color: white;
+    border: 3px solid;
+    
+}
+button:hover{
+    color:red;
+}
+button:active{
+    color:green;
+}
+.id1{
+    float: left;
+    width: 30.3%;
+    padding-left:30px;
+    margin-left:10px;
+    padding-right: 30px;
+    border: 3px;
+    box-sizing: border-box;
+    border-radius: 10%;
+}
+.id1 img{
+    border: 3px;
+    border-radius: 100px;
+    box-sizing: border-box;
+    margin: 30px 0;
+}
+.id1 p{
+    font-size: 28px bold;
+    padding-bottom: 20px;
+    padding-left: 100px;
+}
+.id1 h4 {
+    margin: 30px 0;
+}
+input{
+    background-color:black;
+    color:white;
+}
+
+.main-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    background-color: #ccc;
+    color: black;
+}
+.footer{
+    border:3px;
+    box-sizing: border-box;
+    padding-right: 50px;
+    padding-left: 50px;
+    line-height: none;
+    padding-bottom: none;
+}
+.footer-2{
+    background-color: #ccc;
+    color: black;
+}
+.id1 a{
+    text-decoration:none;  
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+button {
+    text-decoration-style: none;
+    font-size: 18px;
+}
+.link a {
+    background-color:gray;
+    color: white;
+    border: 3px solid;
+    margin: 20px;
+    text-decoration: none;
+}
+.link a:hover {
+    color: red;
+}
+.link a:active {
+    color: green;
+}
+
+.main-container {
+    width: 100%
+}
+
+.main-container .left {
+    float: left;
+    max-width: 60%;
+    -webkit-line-clamp:15;
+    overflow: hidden;
+}
+
+.main-container .right {
+    float: right;
+    max-width: 40%;
+}
+
+.main-container div {
+    padding: 40px
+}
+/*
+.investors{
+    float: left;
+    margin: 10px 100px;
+}*/
+.container-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    border-spacing: 10px;
+    text-align: center;
+}
+.investors img{
+    width:50%;
+    margin:auto;
+    border: 3px;
+    border-radius: 100px;
+    box-sizing: border-box;
+    margin: 30px 10px;
+}
+.investors p h3{
+    margin-bottom: 30px;
+}
